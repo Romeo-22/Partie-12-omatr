@@ -1,0 +1,39 @@
+#add_books {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid;
+  margin: 5px;
+}
+#add_books > input {
+  width: 150px;
+  height: 40px;
+  border-color: var(--Light-blue);
+  border-style: solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
+  position: relative;
+  background-color: var(--gray-color);
+}
+#add_books > input::placeholder {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  text-transform: capitalize;
+}
+#add_books > input[type="submit"] {
+  width: 150px;
+  border: none;
+  font-weight: 550;
+  text-transform: capitalize;
+  color: var(--white-color);
+  background-color: var(--Dark-blue);
+  cursor: pointer;
+}

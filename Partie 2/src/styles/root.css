@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --Dark-blue: hsl(206, 74%, 48%);
+  --Light-blue: hsl(206, 77%, 74%);
+  --red-color: hsl(0, 70%, 50%);
+  --gray-color: hsl(0, 0%, 95%);
+  --white-color: hsl(0, 0%, 100%);
+}

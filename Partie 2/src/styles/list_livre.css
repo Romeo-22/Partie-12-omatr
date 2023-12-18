@@ -1,0 +1,38 @@
+#book-section {
+  border: 1px solid;
+  margin: 5px;
+  padding: 10px;
+}
+#book-section > h1 {
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 20px;
+}
+#book-section > table {
+  width: 80%;
+  border-spacing: 0 10px;
+  margin: auto;
+}
+#book-section > table > thead > tr > td {
+  width: calc(100% / 4);
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--red-color);
+}
+#book-section > table > tbody > tr > td {
+  background-color: var(--gray-color);
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#book-section td > button {
+  width: 80%;
+  height: fit-content;
+  border: none;
+  background-color: var(--Light-blue);
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
