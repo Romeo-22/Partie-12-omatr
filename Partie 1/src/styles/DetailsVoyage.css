@@ -1,0 +1,28 @@
+#specific-journey {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+#specific-journey > article {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+#specific-journey > article > :nth-child(1) {
+  font-size: 20px;
+}
+#specific-journey .image-container {
+  width: 300px;
+  height: 300px;
+}
+#specific-journey .image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
